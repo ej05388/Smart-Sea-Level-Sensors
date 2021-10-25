@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0415BC240E004000E1A855 /* WaterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0415BB240E004000E1A855 /* WaterCollectionViewCell.swift */; };
+		2C3D9BD023D797F300451574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D9BCF23D797F300451574 /* AppDelegate.swift */; };
+		2C3D9BD223D797F300451574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D9BD123D797F300451574 /* SceneDelegate.swift */; };
+		2C3D9BD923D7980000451574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D9BD823D7980000451574 /* Assets.xcassets */; };
+		2C3D9BE423D7983B00451574 /* Data.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D9BE323D7983B00451574 /* Data.storyboard */; };
+		2C3D9BE823D7987900451574 /* Learning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D9BE723D7987900451574 /* Learning.storyboard */; };
+		2C3D9BEE23D798CB00451574 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D9BED23D798CB00451574 /* Favorites.storyboard */; };
+		2C3D9BF223D7997D00451574 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D9BF123D7997D00451574 /* TableViewController.swift */; };
+		2C3D9BFA23D79C0F00451574 /* Overview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D9BF923D79C0E00451574 /* Overview.storyboard */; };
+		2C3D9C0B23D7A66200451574 /* SensorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D9C0A23D7A66200451574 /* SensorDataViewController.swift */; };
+		2C473C912401E68E002AEC52 /* TemperatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C473C902401E68E002AEC52 /* TemperatureCollectionViewCell.swift */; };
+		2C49F0DE23D93DED0019684C /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F0DD23D93DED0019684C /* CellTableViewCell.swift */; };
+		2C4FA838243CE38500FD9F44 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4FA837243CE38500FD9F44 /* FavoritesTableViewCell.swift */; };
+		2C53B1B8242527C200E3DF7A /* LearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53B1B7242527C200E3DF7A /* LearningViewController.swift */; };
+		2C53B1BE24252F2600E3DF7A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53B1BD24252F2600E3DF7A /* FavoritesViewController.swift */; };
+		2C676E6E2410597B009860CD /* BatteryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C676E6D2410597A009860CD /* BatteryCollectionViewCell.swift */; };
+		2C6DF99724267C6900F32865 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6DF99624267C6900F32865 /* NavController.swift */; };
+		2C88761724351110002E66B0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C88761624351110002E66B0 /* TabBarController.swift */; };
+		2CB53C7523DB909E00B34BD8 /* PressureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53C7423DB909E00B34BD8 /* PressureCollectionViewCell.swift */; };
+		2CC5106724244C8A001C5E61 /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC5106624244C8A001C5E61 /* AboutUs.storyboard */; };
+		2CC6B06D242F9DBE0071A355 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6B06C242F9DBE0071A355 /* Utilities.swift */; };
+		2CF08CB0242BC9C600288A68 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF08CAF242BC9C600288A68 /* AboutUs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C373AA0242294CD0012EE7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C0415BB240E004000E1A855 /* WaterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C3D9BCC23D797F300451574 /* GTSeaLevelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSeaLevelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3D9BCF23D797F300451574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C3D9BD123D797F300451574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C3D9BD823D7980000451574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C3D9BDD23D7980000451574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3D9BE323D7983B00451574 /* Data.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Data.storyboard; sourceTree = "<group>"; };
+		2C3D9BE723D7987900451574 /* Learning.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Learning.storyboard; sourceTree = "<group>"; };
+		2C3D9BED23D798CB00451574 /* Favorites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		2C3D9BF123D7997D00451574 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2C3D9BF923D79C0E00451574 /* Overview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Overview.storyboard; sourceTree = "<group>"; };
+		2C3D9C0A23D7A66200451574 /* SensorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDataViewController.swift; sourceTree = "<group>"; };
+		2C473C902401E68E002AEC52 /* TemperatureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C49F0DD23D93DED0019684C /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		2C4FA837243CE38500FD9F44 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		2C53B1B7242527C200E3DF7A /* LearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningViewController.swift; sourceTree = "<group>"; };
+		2C53B1BD24252F2600E3DF7A /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		2C676E6D2410597A009860CD /* BatteryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C6DF99624267C6900F32865 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		2C88761624351110002E66B0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2CB53C7423DB909E00B34BD8 /* PressureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CC5106624244C8A001C5E61 /* AboutUs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutUs.storyboard; sourceTree = "<group>"; };
+		2CC6B06C242F9DBE0071A355 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2CF08CAF242BC9C600288A68 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3D9BC923D797F300451574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3D9BC323D797F300451574 = {
+			isa = PBXGroup;
+			children = (
+				2C3D9BCE23D797F300451574 /* Sea Sensors */,
+				2C3D9BCD23D797F300451574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C3D9BCD23D797F300451574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D9BCC23D797F300451574 /* GTSeaLevelApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C3D9BCE23D797F300451574 /* Sea Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				2C473C8B2401E403002AEC52 /* Settings */,
+				2C473C8C2401E420002AEC52 /* Storyboards */,
+				2C3D9BD823D7980000451574 /* Assets.xcassets */,
+				2C3D9BDD23D7980000451574 /* Info.plist */,
+				2C473C8A2401E3C4002AEC52 /* Cells */,
+				2C53B1B924252EBB00E3DF7A /* View Controllers */,
+			);
+			path = "Sea Sensors";
+			sourceTree = "<group>";
+		};
+		2C473C8A2401E3C4002AEC52 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C49F0DD23D93DED0019684C /* CellTableViewCell.swift */,
+				2C4FA837243CE38500FD9F44 /* FavoritesTableViewCell.swift */,
+				2C473C8D2401E459002AEC52 /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C473C8B2401E403002AEC52 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D9BCF23D797F300451574 /* AppDelegate.swift */,
+				2C3D9BD123D797F300451574 /* SceneDelegate.swift */,
+				2CC6B06C242F9DBE0071A355 /* Utilities.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2C473C8C2401E420002AEC52 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D9BF923D79C0E00451574 /* Overview.storyboard */,
+				2C3D9BE723D7987900451574 /* Learning.storyboard */,
+				2C3D9BE323D7983B00451574 /* Data.storyboard */,
+				2C3D9BED23D798CB00451574 /* Favorites.storyboard */,
+				2CC5106624244C8A001C5E61 /* AboutUs.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2C473C8D2401E459002AEC52 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C473C902401E68E002AEC52 /* TemperatureCollectionViewCell.swift */,
+				2CB53C7423DB909E00B34BD8 /* PressureCollectionViewCell.swift */,
+				2C0415BB240E004000E1A855 /* WaterCollectionViewCell.swift */,
+				2C676E6D2410597A009860CD /* BatteryCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		2C53B1B924252EBB00E3DF7A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C6DF99624267C6900F32865 /* NavController.swift */,
+				2CF08CAF242BC9C600288A68 /* AboutUs.swift */,
+				2C88761624351110002E66B0 /* TabBarController.swift */,
+				2C53B1BC24252F0D00E3DF7A /* Learning */,
+				2C53B1BA24252EE500E3DF7A /* Data */,
+				2C53B1BF24252F2A00E3DF7A /* Favorites */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2C53B1BA24252EE500E3DF7A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D9BF123D7997D00451574 /* TableViewController.swift */,
+				2C3D9C0A23D7A66200451574 /* SensorDataViewController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2C53B1BC24252F0D00E3DF7A /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				2C53B1B7242527C200E3DF7A /* LearningViewController.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		2C53B1BF24252F2A00E3DF7A /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				2C53B1BD24252F2600E3DF7A /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C3D9BCB23D797F300451574 /* Sea Sensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3D9BE023D7980000451574 /* Build configuration list for PBXNativeTarget "Sea Sensors" */;
+			buildPhases = (
+				2C3D9BC823D797F300451574 /* Sources */,
+				2C3D9BC923D797F300451574 /* Frameworks */,
+				2C3D9BCA23D797F300451574 /* Resources */,
+				2C373AA0242294CD0012EE7C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sea Sensors";
+			productName = GTSeaLevelAPP;
+			productReference = 2C3D9BCC23D797F300451574 /* GTSeaLevelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C3D9BC423D797F300451574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Georgia Tech";
+				TargetAttributes = {
+					2C3D9BCB23D797F300451574 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 2C3D9BC723D797F300451574 /* Build configuration list for PBXProject "Sea Sensors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C3D9BC323D797F300451574;
+			productRefGroup = 2C3D9BCD23D797F300451574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C3D9BCB23D797F300451574 /* Sea Sensors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3D9BCA23D797F300451574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3D9BE823D7987900451574 /* Learning.storyboard in Resources */,
+				2C3D9BE423D7983B00451574 /* Data.storyboard in Resources */,
+				2C3D9BEE23D798CB00451574 /* Favorites.storyboard in Resources */,
+				2CC5106724244C8A001C5E61 /* AboutUs.storyboard in Resources */,
+				2C3D9BFA23D79C0F00451574 /* Overview.storyboard in Resources */,
+				2C3D9BD923D7980000451574 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3D9BC823D797F300451574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3D9C0B23D7A66200451574 /* SensorDataViewController.swift in Sources */,
+				2C88761724351110002E66B0 /* TabBarController.swift in Sources */,
+				2C3D9BD023D797F300451574 /* AppDelegate.swift in Sources */,
+				2C53B1BE24252F2600E3DF7A /* FavoritesViewController.swift in Sources */,
+				2C0415BC240E004000E1A855 /* WaterCollectionViewCell.swift in Sources */,
+				2C6DF99724267C6900F32865 /* NavController.swift in Sources */,
+				2C49F0DE23D93DED0019684C /* CellTableViewCell.swift in Sources */,
+				2C3D9BD223D797F300451574 /* SceneDelegate.swift in Sources */,
+				2C4FA838243CE38500FD9F44 /* FavoritesTableViewCell.swift in Sources */,
+				2CC6B06D242F9DBE0071A355 /* Utilities.swift in Sources */,
+				2CB53C7523DB909E00B34BD8 /* PressureCollectionViewCell.swift in Sources */,
+				2CF08CB0242BC9C600288A68 /* AboutUs.swift in Sources */,
+				2C676E6E2410597B009860CD /* BatteryCollectionViewCell.swift in Sources */,
+				2C473C912401E68E002AEC52 /* TemperatureCollectionViewCell.swift in Sources */,
+				2C3D9BF223D7997D00451574 /* TableViewController.swift in Sources */,
+				2C53B1B8242527C200E3DF7A /* LearningViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C3D9BDE23D7980000451574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sea Sensors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C3D9BDF23D7980000451574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Sea Sensors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C3D9BE123D7980000451574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LECSLW6UDQ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Sea Sensors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gatech.rnoc.ssls;
+				PRODUCT_NAME = GTSeaLevelApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2C3D9BE223D7980000451574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LECSLW6UDQ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Sea Sensors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gatech.rnoc.ssls;
+				PRODUCT_NAME = GTSeaLevelApp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3D9BC723D797F300451574 /* Build configuration list for PBXProject "Sea Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3D9BDE23D7980000451574 /* Debug */,
+				2C3D9BDF23D7980000451574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3D9BE023D7980000451574 /* Build configuration list for PBXNativeTarget "Sea Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3D9BE123D7980000451574 /* Debug */,
+				2C3D9BE223D7980000451574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C3D9BC423D797F300451574 /* Project object */;
+}
